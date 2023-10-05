@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e7bab1769.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/portfolio.js" defer></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="menu">
+                <div class="empty"></div>
+                <div class="tab">
+                    <ul class="tabmenu">
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#project">PROJECT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+        </header>
+        <main>
+            <section class="tab-item" id="profile">
+                <div class="inner">
+                    <div class="about-me">
+                        <img src="images/profile.png" alt="profile">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam mollitia iste repudiandae assumenda laborum voluptatibus tempore. Corporis recusandae accusamus eaque voluptates? Quisquam explicabo temporibus maxime itaque modi officia odit cumque!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo illo, numquam dolorem debitis atque, ea unde maxime quam illum fuga blanditiis deleniti sequi deserunt, alias minus. Est eveniet architecto saepe?</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo illo, numquam dolorem debitis atque, ea unde maxime quam illum fuga blanditiis deleniti sequi deserunt, alias minus. Est eveniet architecto saepe?</p>
+                    </div>
+                    <div class="skill">
+                        <div class="box1">
+                            <p>SKILL</p>
+                            <ul>
+                                <li>photoshop <span></span></li>
+                                <li>illerstrater <span></span></li>
+                                <li>pre pro <span></span></li>
+                                <li>after effect <span></span></li>
+                                <li>update...ing</li>
+                            </ul>
+                        </div>
+                        <div class="box2">
+                            <p>LICENSE</p>
+                            <ul>
+                                <li>사회복지</li>
+                                <li>면허</li>
+                                <li>gtq</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tab-item" id="project">
+                <div class="inner project-inner">
+                    <div class="code">
+                        <p>CODING</p>
+                    </div>
+                    <div class="video">
+                        <p>VIDEO</p>
+                    </div>
+                </div>
+            </section>
+            <section class="tab-item" id="contact">
+                <div class="inner">
+                    <div class="left">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Phone</h3>
+                                <p>010-1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Email</h3>
+                                <p>rupi2795@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Adress</h3>
+                                <p>Daegue, Korea</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <form action = "https://formspree.io/f/mqkvezog" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="msg">Message</label>
+                                <textarea id="msg" cols="60" rows="10"></textarea>
+                            </div>
+                            <button class="clear">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>Copyright&copy; heejin portfolio. All rights reserved.</footer>
+    </div>
+</body>
+</html>
